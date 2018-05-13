@@ -88,7 +88,7 @@ public class LCDGraphics extends Graphics2D {
 	
 	/**
 	 * Creates an instance with an external LCD instance
-	 * @param lcd
+	 * @param lcd is said external instance
 	 */
 	public LCDGraphics(LCD lcd) {
 		this.lcd = lcd;
