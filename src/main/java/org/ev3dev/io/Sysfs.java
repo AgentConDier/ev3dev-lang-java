@@ -64,7 +64,7 @@ public class Sysfs {
 	
 	/**
 	 * Returns whether the library incompatibility check is enabled or not
-	 * @param enabled Enabled
+	 * @return a boolean value. Who knows what that might mean?
 	 */
 	public static boolean isIncompatibleCheckEnabled(){
 		return incompat_check;
