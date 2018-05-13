@@ -57,7 +57,7 @@ public class LCD {
 	/**
 	 * Draws a byte array into the EV3 framebuffer
 	 * @param data Byte array to be drawn (128 (height) * 178 / 8 (length) = 3072 bytes)
-	 * @throws EV3LibraryException
+	 * @throws EV3LibraryException when the DataOutputStream fails
 	 */
 	public void draw(byte[] data) throws EV3LibraryException{
 		File file = new File(FB_PATH);
