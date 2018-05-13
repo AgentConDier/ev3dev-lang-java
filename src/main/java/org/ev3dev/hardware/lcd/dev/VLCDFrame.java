@@ -59,6 +59,7 @@ public class VLCDFrame extends JFrame {
 	private boolean running = false;
 	/**
 	 * Create the frame.
+	 * @param vlcd the vlcd that is used by this. Or something. I have no clue
 	 */
 	public VLCDFrame(VirtualLCD vlcd) {
 		setTitle("ev3dev-lang-java VirtualLCD");
