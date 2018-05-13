@@ -237,7 +237,7 @@ public class HTNXTColorSensor extends I2CSensor {
 	 * <b>This function requires mode <code>RAW</code>, <code>NORM</code> or <code>ALL</code>.</b><br>
 	 * <br>
 	 * Get the red component
-	 * @return
+	 * @return the red component of the color the sensor is seeing right now. I think.
 	 */
 	public int getRedComponent(){
 		String mode = getMode();
